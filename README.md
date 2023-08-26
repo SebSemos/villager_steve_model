@@ -35,10 +35,15 @@ ________________________________________________________________________________
 These 3 packs have been done in a way so you could merge them easily. All the variated textures are labeled so you can copy them all in one folder, and edit the villager.properties file (assets\minecraft\optifine\random\entity\villager)
 
 > skins.1 to skins.7 are the vanilla textures of villagers.
+> 
 > skins.8 is empty so you can put your own skin
+> 
 > skins.9 to skins.231 are Hermitcraft skins
+> 
 > skins.231 to skins.499 are meant to be future hermitcraft skins
+> 
 > skins.500 to skins.985 are for Song Of Wars skins
+> 
 > skin.996 to skins.999 are Alex and Steve skins
 
 Note that skins.1 to 7 are in all packs, but distribution of them is not the same in Alex and Steve pack. They are meant to spawn way more in this one, as other two packs give an equal chance to any skin.
