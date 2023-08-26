@@ -63,7 +63,7 @@ ________________________________________________________________________________
 `Items:`
 
 There are a few item such as swords that change texture when renamed. Most of them are in the SOW pack. First made to be used with Chime mod, they were then rewrite to work with CITresnew
-Some weapon were displayed regarding the name of the mob wich hold them. This is a Chie feature and currently doesn't work with CIT. Mod owner said it was a upcoming feature. I will make it work again when so. 
+Some weapon were displayed regarding the name of the mob wich hold them. This is a Chime feature and currently doesn't work with CIT. Mod owner said it was a upcoming feature. I will make it work again when so. 
 For now you'll have to first rename the item, then give it to the mob.
 This is a great feature with the guard villager mod. 
 
@@ -72,6 +72,7 @@ ________________________________________________________________________________
 `Optional Mods:`
 
 [Friend and Foes](https://www.curseforge.com/minecraft/mc-mods/friends-and-foes) Beekeeper is supported
+
 [Guard Villagers](https://www.curseforge.com/minecraft/mc-mods/guard-villagers-fabric) Use the Steve model in the mod option. A bunch of skins of the pack will be used for Guard regarding to the biome they're in
 
 
