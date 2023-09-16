@@ -20,8 +20,9 @@ Now for the mod needed to these pack to work you'll need
 
 Pre 1.20 used [Chime](https://www.curseforge.com/minecraft/mc-mods/chime-fabric) to get custom items, but it is not updated to 1.20 yet, and is not focused in priority by his owner. Files are still in the ressource pack, and should so work if an update is publish
 
-The Villager model has been worked from a port of [Fresh Animation](https://www.curseforge.com/minecraft/texture-packs/fresh-animations) By [Young SoulluoS](https://github.com/YoungSoulluoS/Fresh-Animations_cem_Fork) to make it compatible at the time with CEM fabric. Note: You now can directly use FA in fabric and supposedly forge thanks to EMF
-The Guard Villager model is a modified vindicator from Fresh Animation
+The Villager model has been worked from a port of [Fresh Animation](https://www.curseforge.com/minecraft/texture-packs/fresh-animations) By [Young SoulluoS](https://github.com/YoungSoulluoS/Fresh-Animations_cem_Fork) to make it compatible at the time with CEM fabric. Note: You now can directly use FA in fabric and forge thanks to EMF
+
+The Guard Villager model is a modified vindicator from Fresh Animation by Fresh Lx
 
 All the base work has been made by them. I just changed the model and altered a few line of code here and there. Big thanks to them for letting me use it in these packs :)
 
@@ -80,9 +81,7 @@ ________________________________________________________________________________
 [Guard Villagers](https://www.curseforge.com/minecraft/mc-mods/guard-villagers-fabric) Use the Steve model in the mod option. 
 Note: I use the Fabric port of Guard Villagers. I have no clue if the forge version gonna work the same way.
 
-If you read this before EMF updated you will be spoiled for a few days. Packs will be updated once it has a full release
-
-EMF Must be at least: X.XX.X to work. From this version I can change the model to suit the villager and Fresh Animations. Thanks Fresh animation for letting me use his model. It is the Vindicator one.
+EMF Must be at least: 1.0 to work. From this version I can change the model to suit the villagers and Fresh Animations.
 
 Guard Villager has originaly texture 6 files corresponding to each vanilla biome than can get villages.
 guard_steve_0, guard_steve_1... guard_steve_6
@@ -116,6 +115,9 @@ assets\minecraft\optifine\cem
 Also note that the random system adding numbers suffix is espacially confusing here as there is already a number suffix for each biome. Windows show the files in their numerical number, so some biomes will be mixed together... 
 
 [Villager Names](https://modrinth.com/mod/villager-names-serilum) This mod from Serilum gives villagers (and modded one) random names. You can also provide you custom list. So Refering to my full list of name used, you can get matching textures. This when used with chime gives automatically adequate weaapons to guard villagers :) 
+Place the custom names.txt present in the pack in .minecraft/config/villagernames/
+
+Note: If the custom list is activated, it will ignore texture distribution of the .properties files
 
 ____________________________________________________________________________________________________________________________________________________________
 `Customize/add your own skins:`
