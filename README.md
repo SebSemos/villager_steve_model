@@ -20,10 +20,10 @@ Now for the mod needed to these pack to work you'll need
 
 Pre 1.20 used [Chime](https://www.curseforge.com/minecraft/mc-mods/chime-fabric) to get custom items, but it is not updated to 1.20 yet, and is not focused in priority by his owner. Files are still in the ressource pack, and should so work if an update is publish
 
-The model has been worked from a port of [Fresh Animation](https://www.curseforge.com/minecraft/texture-packs/fresh-animations) By [Young SoulluoS](https://github.com/YoungSoulluoS/Fresh-Animations_cem_Fork) to make it compatible at the time with CEM fabric. Note: You now can directly use FA in fabric and supposedly forge thanks to EMF
+The Villager model has been worked from a port of [Fresh Animation](https://www.curseforge.com/minecraft/texture-packs/fresh-animations) By [Young SoulluoS](https://github.com/YoungSoulluoS/Fresh-Animations_cem_Fork) to make it compatible at the time with CEM fabric. Note: You now can directly use FA in fabric and supposedly forge thanks to EMF
+The Guard Villager model is a modified vindicator from Fresh Animation
 
-Feel free to use my villager model in your own pack. If you publish it, please give a link here and credit Fresh Animation and Young SoulluoS.
-All the base work has been made by them. I just changed the model and altered a few line of code here and there
+All the base work has been made by them. I just changed the model and altered a few line of code here and there. Big thanks to them for letting me use it in these packs :)
 
 I'm a fabric user, I don't know if my pack work with forge mods, but it should.
 Might also work with optifine has these mods aim to give a fabric/forge equivalent. If it's not, nothing will be done for that matter.
@@ -59,13 +59,17 @@ But for the moment there is [this issue](https://github.com/Traben-0/Entity_Text
 Note that there are some zombies textures in the SOW. 
 I recommand to use Fresh animation pack in complement of mine.
 
+Guard Villagers textures should also be mergable. I might have overlooked a few of them, but due to the mess it became because it get 7 categories it will be as it... :p 
+
 ____________________________________________________________________________________________________________________________________________________________
-`Items:`
+`Items and names:`
 
 There are a few item such as swords that change texture when renamed. Most of them are in the SOW pack. First made to be used with Chime mod, they were then rewrite to work with CITresnew
 Some weapon were displayed regarding the name of the mob wich hold them. This is a Chime feature and currently doesn't work with CIT. Mod owner said it was a upcoming feature. I will make it work again when so. 
 For now you'll have to first rename the item, then give it to the mob.
-This is a great feature with the guard villager mod. 
+This is a great immersive feature with the guard villager mod. 
+
+You can get any texture by renaming a villager or a guard. The full list of possible names can be found in the main branch. You can also check the villager.properties in the optifine random folder. Guard villagers have their textures in the guard villagers asset subfolder, not the minecraft on.
 
 ____________________________________________________________________________________________________________________________________________________________
 
