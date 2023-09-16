@@ -115,6 +115,7 @@ but the model is in:
 assets\minecraft\optifine\cem
 Also note that the random system adding numbers suffix is espacially confusing here as there is already a number suffix for each biome. Windows show the files in their numerical number, so some biomes will be mixed together... 
 
+[Friend and Foes](https://modrinth.com/mod/villager-names-serilum) This mod gives villagers (and modded one) random names. You can also provide you custom list. So Refering to my full list of name used, you can get matching textures. This when used with chime gives automatically adequate weaapons to guard villagers :) 
 
 ____________________________________________________________________________________________________________________________________________________________
 `Customize/add your own skins:`
