@@ -71,9 +71,45 @@ ________________________________________________________________________________
 
 `Optional Mods:`
 
-[Friend and Foes](https://www.curseforge.com/minecraft/mc-mods/friends-and-foes) Beekeeper is supported
+[Friend and Foes](https://www.curseforge.com/minecraft/mc-mods/friends-and-foes) Beekeeper job is supported
 
-[Guard Villagers](https://www.curseforge.com/minecraft/mc-mods/guard-villagers-fabric) Use the Steve model in the mod option. A bunch of skins of the pack will be used for Guard regarding to the biome they're in
+[Guard Villagers](https://www.curseforge.com/minecraft/mc-mods/guard-villagers-fabric) Use the Steve model in the mod option. 
+Note: I use the Fabric port of Guard Villagers. I have no clue if the forge version gonna work the same way.
+
+If you read this before EMF updated you will be spoiled for a few days. Packs will be updated once it has a full release
+
+EMF Must be at least: X.XX.X to work. From this version I can change the model to suit the villager and Fresh Animations. Thanks Fresh animation for letting me use his model. It is the Vindicator one.
+
+Guard Villager has originaly texture 6 files corresponding to each vanilla biome than can get villages.
+guard_steve_0, guard_steve_1... guard_steve_6
+
+For Song Of War pack:
+>0 is plains and have Ardoni skins (Will also be used for other biomes villageless)
+>
+>1 is deserts and have Karthen & Northwind skins
+>
+>2 is savanna and have Hydraphel & General skins
+>
+>3 is swamps and have Conchord skins
+>
+>4 is jungle and have Cydonia & Etherea skins
+>
+>5 is taiga and have Crown Peak skins
+>
+>6 is snow plains and have Felden skins
+
+For other packs: Will display the type of villager of the biome + occasionaly a bunch of hermits with "war" skins or Alex, Steve or Derp for their respective pack
+
+See next point for textures customisation, but the model for Guard Villagers support the same options as the villager one, except the "biome/profession outfit"
+You should keep this place of the .png file transparent. Because it is a modded entity their are a few querks I didn't figured out.
+
+Another querk is about armor. For some reason helmets can be a little bit out of sync when the entity walk. And when a second layer is used on the helmet of "meterial_layer_1.png" , it appear like it is on another head doing completely different stuff. Also second layers of helmets on "meterial_layer_2.png" seems to not render. The rest of the armor seems to be ok. I'll update a fix if I can find out what's going on.
+
+Note that the textures for Guard Villagers need to be in:
+assets\guardvillagers\optifine\random\entity\guard
+but the model is in:
+assets\minecraft\optifine\cem
+Also note that the random system adding numbers suffix is espacially confusing here as there is already a number suffix for each biome. Windows show the files in their numerical number, so some biomes will be mixed together... 
 
 
 ____________________________________________________________________________________________________________________________________________________________
@@ -120,4 +156,4 @@ A few differents sleeping villagers models. This one might be added soon, but I 
 More custom items for the hermitcaft pack. I think about all the one the get by renaming stuff. This will likely be added after they release season 9 map.
 I might check previous season in between, for like derpcoins and such.
 
-Animated guard villagers the same way villagers are. I am doing some test for that matter. Not sure if I will get it work tho.
+More attack animations (if that's even possible) for Guard Villagers
