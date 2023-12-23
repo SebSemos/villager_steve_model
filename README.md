@@ -16,9 +16,10 @@ If you came accross these pack I assume you most likely know where they come fro
 Now for the mod needed to these pack to work you'll need
 - [Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures)
 - [Entity Model Features](https://modrinth.com/mod/entity-model-features)
+- [Chime](https://www.curseforge.com/minecraft/mc-mods/chime-fabric) is prefered to CIT Resnew to get custom items
 - [Cit Resnew](https://modrinth.com/mod/cit-resewn)
+- [Cit Resnew, Forge](https://www.curseforge.com/minecraft/mc-mods/forge-cit)
 
-Pre 1.20 used [Chime](https://www.curseforge.com/minecraft/mc-mods/chime-fabric) to get custom items, but it is not updated to 1.20 yet, and is not focused in priority by his owner. Files are still in the ressource pack, and should so work if an update is publish
 
 The Villager model has been worked from a port of [Fresh Animation](https://www.curseforge.com/minecraft/texture-packs/fresh-animations) By [Young SoulluoS](https://github.com/YoungSoulluoS/Fresh-Animations_cem_Fork) to make it compatible at the time with CEM fabric. Note: You now can directly use FA in fabric and forge thanks to EMF
 
@@ -26,7 +27,10 @@ The Guard Villager model is a modified vindicator from Fresh Animation by Fresh 
 
 All the base work has been made by them. I just changed the model and altered a few line of code here and there. Big thanks to them for letting me use it in these packs :)
 
-I'm a fabric user, I don't know if my pack work with forge mods, but it should.
+I'm a fabric user, I have now set a forge version of my packs. Chime stuff need to be deleted, and guard villagers models don't have the same name. I don't play with it, so less likely to find weird stuff in these packs.
+Download them from my github
+If you find any broken texture, please use EMF/ETF debug feature to tell me the number.
+
 Might also work with optifine has these mods aim to give a fabric/forge equivalent. If it's not, nothing will be done for that matter.
 
 
@@ -63,14 +67,22 @@ I recommand to use Fresh animation pack in complement of mine.
 Guard Villagers textures should also be mergable. I might have overlooked a few of them, but due to the mess it became because it get 7 categories it will be as it... :p 
 
 ____________________________________________________________________________________________________________________________________________________________
+`Capes:`
+Since version 6.0, models have capes. This is intended to be used in the Hermitcraft pack. I put capes to hermits regarding to the results in Name MC.
+There is 4 spaces for capes. One model don't have the cape, it has a slightly lower chance to be selected. The models that display CAPE#1 has a bit higher chance than the 3 other.
+CAPE#1 is wich one I usually see the hermit with.
+Cape display are completly random. If you want specific cape or none, you'll have to edit the villager.properties
+Guard Villagers also have a cape, but it is garantee, and only CAPE#1. There are currently no texture with capes for them in any pack
+
+____________________________________________________________________________________________________________________________________________________________
 `Items and names:`
 
-There are a few item such as swords that change texture when renamed. Most of them are in the SOW pack. First made to be used with Chime mod, they were then rewrite to work with CITresnew
-Some weapon were displayed regarding the name of the mob wich hold them. This is a Chime feature and currently doesn't work with CIT. Mod owner said it was a upcoming feature. I will make it work again when so. 
-For now you'll have to first rename the item, then give it to the mob.
+There are a few item such as swords that change texture when renamed. Most of them are in the SOW pack. Prefered use with Chime mod, but it is also ready to work with CITresnew
+Some weapon were displayed regarding the name of the mob wich hold them. This is a Chime feature and currently doesn't work with CIT.
+So if you're using only CIT you'll have to first rename the item, then give it to the mob. (Forge doesn't have a chime port afaik)
 This is a great immersive feature with the guard villager mod. 
 
-You can get any texture by renaming a villager or a guard. The full list of possible names can be found in the main branch. You can also check the villager.properties in the optifine random folder. Guard villagers have their textures in the guard villagers asset subfolder, not the minecraft on.
+You can get any texture by renaming a villager or a guard. The full list of possible names can be found in the main branch. You can also check the "Names and custom weapon list" file inside the ressource pack. Guard villagers have their textures in the guard villagers asset subfolder, not the minecraft on.
 
 ____________________________________________________________________________________________________________________________________________________________
 
@@ -78,13 +90,12 @@ ________________________________________________________________________________
 
 [Friend and Foes](https://www.curseforge.com/minecraft/mc-mods/friends-and-foes) Beekeeper job is supported
 
-[Guard Villagers](https://www.curseforge.com/minecraft/mc-mods/guard-villagers-fabric) Use the Steve model in the mod option. 
-Note: I use the Fabric port of Guard Villagers. I have no clue if the forge version gonna work the same way.
+[Guard Villagers](https://www.curseforge.com/minecraft/mc-mods/guard-villagers-fabric) From pack 6.0 use the regular model of guard villagers, as the steve one messes the player armor. 
 
 EMF Must be at least: 1.0 to work. From this version I can change the model to suit the villagers and Fresh Animations.
 
 Guard Villager has originaly texture 6 files corresponding to each vanilla biome than can get villages.
-guard_steve_0, guard_steve_1... guard_steve_6
+guard_0, guard_1... guard_6
 
 For Song Of War pack:
 >0 is plains and have Ardoni skins (Will also be used for other biomes villageless)
@@ -103,21 +114,27 @@ For Song Of War pack:
 
 For other packs: Will display the type of villager of the biome + occasionaly a bunch of hermits with "war" skins or Alex, Steve or Derp for their respective pack
 
-See next point for textures customisation, but the model for Guard Villagers support the same options as the villager one, except the "biome/profession outfit"
-You should keep this place of the .png file transparent. Because it is a modded entity their are a few querks I didn't figured out.
+Guard Villagers have several models that will change the way they hold weapon, as well as attack animation.
+This is primarily intended for SOW pack. They will change depending of the weapon, the name of the weapon or the name of the mob. (Using CIT only might lead to some animation not matching the weapon)
+Some weapon as swords have a model when a guard hold two of them. Even tho the animation will make the both of them move, it will not double the damage...
+Guard also can spawn as left handed, and have corresponding models. BUT this is not controllable by the player. The guard inventory is the same for left and right handed. (A shift click will send a weapon in the shield slot btw. Take car of that as it could not look good)
+Guard Villagers models also have a cape. It only got the CAPE#1, and will always display if on the texture. I choose not to add them to the Hermitcraft pack for now
 
-Another querk is about armor. For some reason helmets can be a little bit out of sync when the entity walk. And when a second layer is used on the helmet of "meterial_layer_1.png" , it appear like it is on another head doing completely different stuff. Also second layers of helmets on "meterial_layer_2.png" seems to not render. The rest of the armor seems to be ok. I'll update a fix if I can find out what's going on.
+See next point for textures customisation, but the model for Guard Villagers support the same options as the villager one, except the "biome/profession outfit"
+You should keep this place of the .png file transparent. 
+There might be a few querks I didn't figured out.
+One about armor. When a second layer is used on the helmet of "meterial_layer_1.png" , it appear like it is on another head doing completely different stuff. Also second layers of helmets on "meterial_layer_2.png" seems to not render. The rest of the armor seems to be ok. I'll update a fix if I can find out what's going on.
 
 Note that the textures for Guard Villagers need to be in:
 assets\guardvillagers\optifine\random\entity\guard
 but the model is in:
 assets\minecraft\optifine\cem
-Also note that the random system adding numbers suffix is espacially confusing here as there is already a number suffix for each biome. Windows show the files in their numerical number, so some biomes will be mixed together... 
+Also note you need a dot for the random system suffix : guard_0.x, guard_1.x...
 
-[Villager Names](https://modrinth.com/mod/villager-names-serilum) This mod from Serilum gives villagers (and modded one) random names. You can also provide you custom list. So Refering to my full list of name used, you can get matching textures. This when used with chime gives automatically adequate weaapons to guard villagers :) 
-Place the custom names.txt present in the pack in .minecraft/config/villagernames/
+[Villager Names](https://modrinth.com/mod/villager-names-serilum) This mod from Serilum gives villagers (and modded one) random names. You can also provide you custom list. There a file in each pack with them names of the pack. You automatically get matching textures. This when used with chime gives automatically adequate weaapons to guard villagers :) 
+Place the custom names.txt in .minecraft/config/villagernames/
 
-Note: If the custom list is activated, it will ignore texture distribution of the .properties files
+Note: If only the custom list is activated, it means it ignore texture distribution of the .properties files. 
 
 ____________________________________________________________________________________________________________________________________________________________
 `Customize/add your own skins:`
@@ -125,32 +142,34 @@ ________________________________________________________________________________
 In order to get the Fresh Animation vibe I wanted, I decided to go for a more complex model that gives me options. Biggest problem was to be able to use Alex type AND Steve type skins. (Their arms are not the same size) I wanted to keep 2nd layers of skins, and to have facial animations. Squeeze all that in a 64x64 regular skin.png was impossible. So I decided to work with a 128x128. 
 
 To use you own skin, simply open it with a image editor (I use paint.net) make so the work area is going up to 128x128 make sure everything is transparent. Your skin must be on the top left quarter corner. If you have an Axel type skin. Move the arms (and 2nd layer arms) on the top right quarter corner
-The bottom left quarter corner is use for villager jobs, bottom right quarter is unuse
-Use these picture as references. 
-Do note that villager jobs hat need to be shrinked a little bit to look right. Same for villager faces. This sadly broke a direct compability to villagers ressources pack where you would only had to resize the .png file.
+The bottom left quarter corner is use for villager jobs, bottom right quarter is for capes
+There is a skin template file in each pack. Use it on a layer in your editing software for easy edit. The skin template legend will tell you what is what
+Villager outfit, jobs, level and mob textures need to be resized a bit at places from their vanilla files, other parts of the skin respect vanilla player skin sizes.
+Villager biome outfit are now transparent textures and are directly randomized from the random folder. (If you add some, it would be displayed on top of the skin)
+This sadly broke a direct compability with other villagers ressources pack.
 
 ![Image](https://user-images.githubusercontent.com/89230340/259273846-cd3e87ba-0ca1-4b63-843a-4a6898d3b3fd.png)
-![Image](https://user-images.githubusercontent.com/89230340/259273880-7776e36f-6d91-4262-976e-7374f78dabfc.png)
+![Skin Template Legend](https://github.com/SebSemos/villager_steve_model/assets/89230340/368c7e2e-d304-4db3-a87c-540f1bcba2d2)
+
 
 Face animations:
-Use this template to know where to put texture of eyes and mouth for it to be animated.
 You don't want these texture on the main face or it will display them twice
-The sleep part will display "closed eyes" when villagers are in a bed. It must be added when using eyes animation because it set so eyes will disapear during sleep.
-The noze part will display the vanilla villager noze. So you can have it on your own skin :D 
-I have set it up so any face can be supported.
+The Eyelid will display "closed eyes". It is used for blinking and during sleeping. Other textures of the eyes are invisible during these two events
+The noze part will display the vanilla villager noze. So you can have it on any character
+I have set it up so any face can be supported, but the more in the middle the eyes are, the more the result is good. A derp face can go a bit wacky from time to time :p 
 
 The "realistic" part will display thinner mouth and brows. It does not support all kind of faces. See the next photo to get an idea how it looks.
 I've use it for Ardonis and some "mouthless" skins in SOW pack so they have a mouth kinda like in the animation
 
-![Image](https://user-images.githubusercontent.com/89230340/259906090-8de7e722-d940-49b7-b127-8e9260fc4464.png)
 ![Image](https://user-images.githubusercontent.com/89230340/259906726-cf46b5fb-110f-4b3c-8e42-69721a23d36f.png)
 ![Image](https://user-images.githubusercontent.com/89230340/259907284-deb0950d-0a4b-466a-bd7a-0dfad4f5f6be.png)
 
 NOTE: Since 1.20, a sleeping villager get another model. I set it up so the animated eyes dissapears. But it mean you have to define a sleep texture or it will look weird.
 It also remove the jobs outfit. And vanilla skined one will loose their biome coat. It now look like they are in pijamas :p 
+NOTE #2: Since pack 6.0, job outfits will only render during work time
 
 ____________________________________________________________________________________________________________________________________________________________
-Future ideas
+`Future ideas`
 
 I have a bunch of ideas to come at some point. No ETA, no promises. But to name a few:
 
@@ -162,5 +181,3 @@ A few differents sleeping villagers models. This one might be added soon, but I 
 
 More custom items for the hermitcaft pack. I think about all the one the get by renaming stuff. This will likely be added after they release season 9 map.
 I might check previous season in between, for like derpcoins and such.
-
-More attack animations (if that's even possible) for Guard Villagers
