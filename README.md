@@ -141,7 +141,7 @@ ________________________________________________________________________________
 
 In order to get the Fresh Animation vibe I wanted, I decided to go for a more complex model that gives me options. Biggest problem was to be able to use Alex type AND Steve type skins. (Their arms are not the same size) I wanted to keep 2nd layers of skins, and to have facial animations. Squeeze all that in a 64x64 regular skin.png was impossible. So I decided to work with a 128x128. 
 
-To use you own skin, simply open it with a image editor (I use paint.net) make so the work area is going up to 128x128 make sure everything is transparent. Your skin must be on the top left quarter corner. If you have an Axel type skin. Move the arms (and 2nd layer arms) on the top right quarter corner
+To use you own skin, simply open it with a image editor (I use paint.net) make so the work area is going up to 128x128 make sure everything is transparent. Your skin must be on the top left quarter corner. If you have an Axel type skin. Move the arms (and 2nd layer arms) 64 pixels to the right
 The bottom left quarter corner is use for villager jobs, bottom right quarter is for capes
 There is a skin template file in each pack. Use it on a layer in your editing software for easy edit. The skin template legend will tell you what is what
 Villager outfit, jobs, level and mob textures need to be resized a bit at places from their vanilla files, other parts of the skin respect vanilla player skin sizes.
