@@ -10,6 +10,7 @@ This page regroup instruction for my 3 ressources packs available on [planetemin
 [Alex and Steve villagers](https://www.planetminecraft.com/texture-pack/alex-and-steve-villagers/) also took inspiration from the animated story of the same studio. Although I did worked with vanilla Alex and Steve textures, this is why you have possibility to get the "Derp" skin in this pack.
 
 [Hermitcraft villagers](https://www.planetminecraft.com/texture-pack/hermitcraft-villagers/) is using skins of famous youtubers currently playing on this smp. The skins I used have been taken via [NameMC](https://fr.namemc.com/) You can get the history of skin used by a player on this website.
+Some custom items have been made by Stridey. He gave me authorization to use them. I don't know who made the rest. If you are the creator and don't want it to be shared in this pack, let me know :)
 
 If you came accross these pack I assume you most likely know where they come from. If not, feel free to check out [Squared Media](https://www.youtube.com/@SquaredMediaAnimations) for the animations and [Hermitcraft](https://hermitcraft.com/) for the SMP.
 
@@ -77,11 +78,12 @@ Guard Villagers also have a cape, but it is garantee, and only CAPE#1. There are
 ____________________________________________________________________________________________________________________________________________________________
 `Items and names:`
 
-There are a few item such as swords that change texture when renamed. Most of them are in the SOW pack. Prefered use with Chime mod, but it is also ready to work with CITresnew
-Some weapon were displayed regarding the name of the mob wich hold them. This is a Chime feature and currently doesn't work with CIT.
-So if you're using only CIT you'll have to first rename the item, then give it to the mob. (Forge doesn't have a chime port afaik)
-This is a great immersive feature with the guard villager mod. 
-
+There are  item that change texture when renamed.
+  -You will have weapons from Song Of War. For the most part swords, I did them in every vanilla material. (this is supported by either Chime or CIT)
+  -You also will find the custom items used by the hermits in season 8 & 9 (this is supported ONLY by Chime at the moment!!) 
+  -Some weapon will be displayed regarding the name of the mob wich hold them. This is a Chime feature and currently doesn't work with CIT.
+          -> So if you're using only CIT you'll have to first rename the item, then give it to the mob. (Forge doesn't have a chime port afaik)
+      
 You can get any texture by renaming a villager or a guard. The full list of possible names can be found in the main branch. You can also check the "Names and custom weapon list" file inside the ressource pack. Guard villagers have their textures in the guard villagers asset subfolder, not the minecraft on.
 
 ____________________________________________________________________________________________________________________________________________________________
@@ -89,6 +91,13 @@ ________________________________________________________________________________
 `Optional Mods:`
 
 [Friend and Foes](https://www.curseforge.com/minecraft/mc-mods/friends-and-foes) Beekeeper job is supported
+
+[Straw Statue](https://www.curseforge.com/minecraft/mc-mods/straw-statues) (not added yet if you read this around the 20th of january 2024 :p)
+
+Renaming a straw statue via the tab Style will give it the corresponding texture. Name list is the same as villagers
+Having a player name in the Model Parts tab as the priority to display the "live" texture
+Don't forget to set the correct size for amrs if you want to display a slim skin.
+To add you own skin you don't need to modify anything of the texture unlike villagers or guards (see below)
 
 [Guard Villagers](https://www.curseforge.com/minecraft/mc-mods/guard-villagers-fabric) From pack 6.0 use the regular model of guard villagers, as the steve one messes the player armor. 
 
@@ -156,7 +165,7 @@ This sadly broke a direct compability with other villagers ressources pack.
 
 
 Face animations:
-You don't want these texture on the main face or it will display them twice
+Optional, but if you add eyes animations, ou don't want these texture on the main face or it will display them twice
 The Eyelid will display "closed eyes". It is used for blinking and during sleeping. Other textures of the eyes are invisible during these two events
 The noze part will display the vanilla villager noze. So you can have it on any character
 I have set it up so any face can be supported, but the more in the middle the eyes are, the more the result is good. A derp face can go a bit wacky from time to time :p 
