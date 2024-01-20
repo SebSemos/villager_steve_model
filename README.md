@@ -92,12 +92,13 @@ ________________________________________________________________________________
 
 [Friend and Foes](https://www.curseforge.com/minecraft/mc-mods/friends-and-foes) Beekeeper job is supported
 
-[Straw Statue](https://www.curseforge.com/minecraft/mc-mods/straw-statues) (not added yet if you read this around the 20th of january 2024 :p)
+[Straw Statue](https://www.curseforge.com/minecraft/mc-mods/straw-statues) 
 
 Renaming a straw statue via the tab Style will give it the corresponding texture. Name list is the same as villagers
 Having a player name in the Model Parts tab as the priority to display the "live" texture
 Don't forget to set the correct size for amrs if you want to display a slim skin.
-To add you own skin you don't need to modify anything of the texture unlike villagers or guards (see below)
+To add you own skin you don't need to modify anything of the texture unlike villagers or guards, but texture #8 is not free. If you put something on texture #1 it will display anytime you place the statue (see below)
+Currently emessive textures act weridly if you're using Iris. Hopefully will be fixed. Seems fine otherwise
 
 [Guard Villagers](https://www.curseforge.com/minecraft/mc-mods/guard-villagers-fabric) From pack 6.0 use the regular model of guard villagers, as the steve one messes the player armor. 
 
