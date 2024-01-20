@@ -141,6 +141,8 @@ but the model is in:
 assets\minecraft\optifine\cem
 Also note you need a dot for the random system suffix : guard_0.x, guard_1.x...
 
+Also note Forge guard villagers don't have the same name file than fabric ones
+
 [Villager Names](https://modrinth.com/mod/villager-names-serilum) This mod from Serilum gives villagers (and modded one) random names. You can also provide you custom list. There a file in each pack with them names of the pack. You automatically get matching textures. This when used with chime gives automatically adequate weaapons to guard villagers :) 
 Place the custom names.txt in .minecraft/config/villagernames/
 
@@ -182,6 +184,13 @@ It also remove the jobs outfit. And vanilla skined one will loose their biome co
 NOTE #2: Since pack 6.0, job outfits will only render during work time
 
 ____________________________________________________________________________________________________________________________________________________________
+`Forge vs Fabric`
+What's the diffrence:
+  - Guard Villagers don't have the same filename.
+  - Because Chime is not on forge, item got missing texture is you keep the chime overides in the \assets\minecraft\models folder
+
+
+____________________________________________________________________________________________________________________________________________________________
 `Future ideas`
 
 I have a bunch of ideas to come at some point. No ETA, no promises. But to name a few:
@@ -191,6 +200,3 @@ Sounds, especially for Hermitcraft pack. I might implement classic "catch phrase
 Implement a second layer on most of SOW background caracters. In the files only the main one have detailled textures. This will take a long time tho :p 
 
 A few differents sleeping villagers models. This one might be added soon, but I need to do a bunch of testing to see if my idea is possible.
-
-More custom items for the hermitcaft pack. I think about all the one the get by renaming stuff. This will likely be added after they release season 9 map.
-I might check previous season in between, for like derpcoins and such.
