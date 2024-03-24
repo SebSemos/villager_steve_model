@@ -1,3 +1,15 @@
+Description not up to date!
+The 3 ressource packs are not up to fate with Villagers to Players yet neither!
+Coming soon!
+
+
+
+
+
+
+
+
+
 # Villager Steve Model
 
 This page regroup instruction for my 3 ressources packs available on [planeteminecraft](https://www.planetminecraft.com/member/seb_semos/)
